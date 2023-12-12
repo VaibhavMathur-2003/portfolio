@@ -26,7 +26,7 @@ const Projects = () => {
           • Utilized React, Socket.io for messaging, scripts, and Node.js, Express, and MongoDB for backend and data handling.."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/algoviz.png"
           title="Space Themed Website"
           description="• React-based algorithm visualizer showcasing various algorithms like searching, sorting, path-finding, etc.
           • Implemented various algorithms, such as selection sort, binary search, and BFS, using React.
