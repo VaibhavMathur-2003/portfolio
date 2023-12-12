@@ -25,13 +25,7 @@ const Projects = () => {
           • Created interactive UI with React, achieved real-time messaging using Socket.io, and ensured security using encryption.
           • Utilized React, Socket.io for messaging, scripts, and Node.js, Express, and MongoDB for backend and data handling.."
         />
-        <ProjectCard
-          src="/algoviz.png"
-          title="Space Themed Website"
-          description="• React-based algorithm visualizer showcasing various algorithms like searching, sorting, path-finding, etc.
-          • Implemented various algorithms, such as selection sort, binary search, and BFS, using React.
-          • Includes AI Algorithms like A* which takes 6X less time than Dijkstra."
-        />
+        
       </div>
     </div>
   );
