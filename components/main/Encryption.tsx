@@ -30,7 +30,7 @@ const Encryption = () => {
       
       <ProjectCard
           
-          src="/image (11).png"
+          src="/profilepc.png"
           title="Hi! I am Vaibhav Mathur"
           description="I'm a driven full-stack developer studying Computer Science & Engineering at IIT Goa. Proficient in web technologies, I'm also passionate about Machine Learning and Neural Networks. Committed to merging software development skills with AI for innovative solutions. Actively engaged in open-source projects and eager to create a positive impact through technology."
         />
