@@ -14,9 +14,10 @@ const Projects = () => {
         <ProjectCard
           src="/algoviz.png"
           title="Algo Visualizer"
-          description="• React-based algorithm visualizer showcasing various algorithms like searching, sorting, path-finding, etc.
+          description='• React-based algorithm visualizer showcasing various algorithms like searching, sorting, path-finding, etc.
           • Implemented various algorithms, such as selection sort, binary search, and BFS, using React.
-          • Includes AI Algorithms like A* which takes 6X less time than Dijkstra."
+          • Includes AI Algorithms like A* which takes 6X less time than Dijkstra.'
+          link="https://visualgorithms.netlify.app/"
         />
         <ProjectCard
           src="/quickconvo.png"
@@ -24,6 +25,7 @@ const Projects = () => {
           description="• Developed a MERN stack chat application with real-time chat and secure login for 5+ users.
           • Created interactive UI with React, achieved real-time messaging using Socket.io, and ensured security using encryption.
           • Utilized React, Socket.io for messaging, scripts, and Node.js, Express, and MongoDB for backend and data handling.."
+          link="https://quickconvo.netlify.app/"
         />
         
       </div>

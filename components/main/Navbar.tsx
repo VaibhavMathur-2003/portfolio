@@ -1,6 +1,8 @@
-import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import { SiGmail } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
+
 
 const Navbar = () => {
   return (
@@ -15,7 +17,7 @@ const Navbar = () => {
             alt="logo"
             width={70}
             height={70}
-            className="cursor-pointer hover:animate-slowspin"
+            className="cursor-pointer hover:animate-slowspin brightness-200"
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
@@ -37,16 +39,13 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
-          ))}
+        <div className="flex flex-row gap-8 text-white text-xl">
+          <a href="https://www.linkedin.com/in/vaibhav-mathur-a63940231/">
+          <FaLinkedin />
+          </a>
+          <a href="mailto:mathurvaibhav@gmail.com">
+          <SiGmail/>
+          </a>
         </div>
       </div>
     </div>
