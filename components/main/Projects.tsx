@@ -24,8 +24,14 @@ const Projects = () => {
           title="Full Stack Chat App"
           description="• Developed a MERN stack chat application with real-time chat and secure login for 5+ users.
           • Created interactive UI with React, achieved real-time messaging using Socket.io, and ensured security using encryption.
-          • Utilized React, Socket.io for messaging, scripts, and Node.js, Express, and MongoDB for backend and data handling.."
+          • Utilized React, Socket.io for messaging, scripts, and Node.js, Express, and MongoDB for backend and data handling."
           link="https://quickconvo.netlify.app/"
+        />
+        <ProjectCard
+          src="/deeplearning.png"
+          title="Makemore (Andrej Karpathy)"
+          description="Inspired by Andrej Karpathy's Neural Network Zero to Hero, this project consist making of a character level language model. It begins with a bigram character-level language model. The series covers torch.Tensor, MLP models, deep network internals, Batch Normalization, and progresses to a WaveNet-like structure."
+          link="https://github.com/VaibhavMathur-2003/DeepLearning/tree/main"
         />
         
       </div>

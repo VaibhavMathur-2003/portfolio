@@ -28,7 +28,7 @@ const Encryption = () => {
           
           src="/profilepc.png"
           title="Hi! I am Vaibhav Mathur"
-          description="I'm a driven full-stack developer studying Computer Science & Engineering at IIT Goa. Proficient in web technologies, I'm also passionate about Machine Learning and Neural Networks. Committed to merging software development skills with AI for innovative solutions. Actively engaged in open-source projects and eager to create a positive impact through technology."
+          description="I'm a driven full-stack developer studying Computer Science & Engineering at IIT Goa. Proficient in web technologies, I'm also passionate about Machine Learning and Neural Networks. Committed to merging software development skills with AI for innovative solutions. With diversified expertise ranging from developing dynamic websites to a solid grasp of transformer architectures, I bring a comprehensive understanding of diverse technologies to my pursuits in Computer Science & Engineering."
           link=""
         />
       </div>
