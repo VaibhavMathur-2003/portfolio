@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import ProjectCard from "../sub/ProjectCard";
+import ProjectCard from "./ProjectCard";
 
 
-const Encryption = () => {
+const Profile = () => {
   return (
     <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
       
@@ -36,4 +36,4 @@ const Encryption = () => {
   );
 };
 
-export default Encryption;
+export default Profile;
