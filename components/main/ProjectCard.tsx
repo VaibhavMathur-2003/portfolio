@@ -10,9 +10,9 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, link }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+    <div className="hover:-translate-y-6 hover:shadow-xl hover:shadow-white center relative overflow-hidden rounded-lg shadow-lg border border-[#8d5bf2]">
       <a href={link}>
-      <Image
+      <img
         src={src}
         alt={title}
         width={1000}
