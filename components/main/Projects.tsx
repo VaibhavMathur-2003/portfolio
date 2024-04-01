@@ -10,7 +10,7 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold  py-10 text-white">
         My Projects
       </h1>
-      <div className="h-full w-1/3 mb-20 flex flex-col md:flex-row gap-10 px-10 text-center">
+      <div className="sm:w-5/12 sm:h-1/4 w-full h:1/4 h-full w-1/3 mb-20 flex flex-col md:flex-row gap-10 px-10 text-center">
       <ProjectCard
           src="/landweb.webp"
           title="No-Code Web Builder"
