@@ -13,7 +13,7 @@ const Profile = () => {
     >
       <div className="text-center z-20 ">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold opacity-100 brightness-150">
-          Hi, I'm{" "}
+          Hi, I'm
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-500 to-indigo-600">
             Vaibhav
           </span>
