@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { RxGithubLogo } from "react-icons/rx";
@@ -30,7 +29,6 @@ const Profile = () => {
           machine learning.🚀✨
         </p>
         <div className="mt-8 space-x-4">
-          <a href="https://drive.google.com/file/d/1U2et6QWx0MtH67rHL9u4Wkf1n9ovq4kE/view?usp=drive_link">
             <a href="https://drive.google.com/file/d/1U2et6QWx0MtH67rHL9u4Wkf1n9ovq4kE/view?usp=drive_link" className="relative inline-block text-lg group">
               <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                 <span className="absolute inset-0 w-full h-full px-2 py-1 rounded-lg bg-gray-50"></span>
@@ -42,7 +40,6 @@ const Profile = () => {
                 data-rounded="rounded-lg"
               ></span>
             </a>
-          </a>
         </div>
         <div className=" mt-5 h-auto flex  items-center justify-between">
           <a href="mailto:mathurvaibhav@gmail.com">
