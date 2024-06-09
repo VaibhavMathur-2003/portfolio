@@ -58,7 +58,7 @@ const Projects = () => {
         <ProjectCard
           src="/deeplearning.webp"
           title="Makemore (Andrej Karpathy)"
-          description="Inspired by Andrej Karpathy's Neural Network Zero to Hero, this project consist making of a character level language model. It begins with a bigram character-level language model. The series covers torch.Tensor, MLP models, deep network internals, Batch Normalization, and progresses to a WaveNet-like structure."
+          description="Inspired by Andrej Karpathy&apos;s Neural Network Zero to Hero, this project consist making of a character level language model. It begins with a bigram character-level language model. The series covers torch.Tensor, MLP models, deep network internals, Batch Normalization, and progresses to a WaveNet-like structure."
           link="https://github.com/VaibhavMathur-2003/DeepLearning/tree/main"
         />
         

@@ -13,19 +13,19 @@ const Profile = () => {
     >
       <div className="text-center z-20 ">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold opacity-100 brightness-150">
-          Hi, I'm
+          Hi, I&apos;m
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-500 to-indigo-600">
             Vaibhav
           </span>
         </h1>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4">
-          I'm a Developer & SaaS Enthusiast.
+          I&apos;m a Developer & SaaS Enthusiast.
         </h2>
         <p className="text-white text-xl mt-4 max-w-xl mx-auto">
-          I'm a B.Tech undergrad in Computer Science who loves diving into the
+          I&apos;m a B.Tech undergrad in Computer Science who loves diving into the
           world of technology! With industry-level experience in full stack web
           development, I enjoy creating sleek, efficient web applications from
-          scratch. But that's not all—I also have a passion for data science and
+          scratch. But that&apos;s not all—I also have a passion for data science and
           machine learning.🚀✨
         </p>
         <div className="mt-8 space-x-4">
