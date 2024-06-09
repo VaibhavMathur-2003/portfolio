@@ -10,14 +10,12 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, link }: Props) => {
   return (
-    <div className="hover:-translate-y-6 hover:shadow-xl hover:shadow-white center relative overflow-hidden rounded-lg shadow-lg border border-[#8d5bf2]">
-      <a href={link}>
+    <div className="flex hover:-translate-y-6 min-[770px]:w-[30%] hover:shadow-xl mb-5 hover:shadow-white center relative overflow-hidden rounded-lg shadow-lg border border-[#8d5bf2]">
+      <a href={link} className="flex flex-col justify-between">
       <img
         src={src}
         alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain"
+        className="w-full"
       />
 
       <div className="relative p-4 text-center">
