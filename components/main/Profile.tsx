@@ -13,9 +13,9 @@ const Profile = () => {
     >
       <div className="text-center z-20 ">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold opacity-100 brightness-150">
-          Hi, I&apos;m
+          Hi, I&apos;m 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-500 to-indigo-600">
-            Vaibhav
+          &nbsp;Vaibhav
           </span>
         </h1>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4">
@@ -26,7 +26,7 @@ const Profile = () => {
           world of technology! With industry-level experience in full stack web
           development, I enjoy creating sleek, efficient web applications from
           scratch. But that&apos;s not all—I also have a passion for data science and
-          machine learning.🚀✨
+          machine learning specially in the field of finance.🚀✨
         </p>
         <div className="mt-8 space-x-4">
             <a href="https://drive.google.com/file/d/1U2et6QWx0MtH67rHL9u4Wkf1n9ovq4kE/view?usp=drive_link" className="relative inline-block text-lg group">
@@ -71,7 +71,7 @@ const Profile = () => {
             loop
             muted
             autoPlay
-            src="/profile.webm"
+            src="https://videos.pexels.com/video-files/2324166/2324166-uhd_2560_1440_25fps.mp4"
           />
         </div>
       </div>

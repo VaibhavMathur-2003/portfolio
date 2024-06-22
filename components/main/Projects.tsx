@@ -47,19 +47,39 @@ const Projects = () => {
           src="/eteml.webp"
           title="End-to-End ML Pipeline"
           description='This end-to-end machine learning project predicts student performance, incorporating components such as data ingestion, transformation, and model training. It features train-test pipelines, logging, exception handling, and a user-friendly Flask interface which lead to a R2 score of 0.8809'
-          link="#projects"
+          link="https://github.com/VaibhavMathur-2003/EndToEndML"
         />
         <ProjectCard
           src="/preprocess.webp"
           title="Data Preprocessing Interface"
           description="This project provides an interface for data preprocessing and visualization, including missing value handling, scaling, encoding categorical features, outlier management, feature selection, and diverse graph plotting. It ensures efficient data preparation and insightful visualization for enhanced data analysis."
-          link="#projects"
+          link="https://github.com/VaibhavMathur-2003/Preprocess"
         />
         <ProjectCard
           src="/deeplearning.webp"
           title="Makemore (Andrej Karpathy)"
           description="Inspired by Andrej Karpathy&apos;s Neural Network Zero to Hero, this project consist making of a character level language model. It begins with a bigram character-level language model. The series covers torch.Tensor, MLP models, deep network internals, Batch Normalization, and progresses to a WaveNet-like structure."
           link="https://github.com/VaibhavMathur-2003/DeepLearning/tree/main"
+        />
+        
+      </div>
+
+      <h1 className="text-[40px] font-semibold  py-10 text-white">
+        ML in Finance
+      </h1>
+      
+      <div className="h-full w-full flex flex-col md:flex-row justify-center gap-10 px-10 text-center">
+        <ProjectCard
+          src="/capm.webp"
+          title="CAPM"
+          description='This project implements the Capital Asset Pricing Model (CAPM) using Python and various libraries such as pandas, statsmodels, and matplotlib. The CAPM is a widely used model in finance that describes the relationship between the expected return of an asset and its systematic risk.'
+          link="https://github.com/VaibhavMathur-2003/CAPM"
+        />
+        <ProjectCard
+          src="/pairtrade.webp"
+          title="Pair Trading"
+          description="This project implements a pair trading strategy using historical stock data. Pair trading is a market-neutral strategy that involves taking long and short positions in two highly correlated stocks. The strategy bets on the mean-reverting behavior of the price spread between the two stocks."
+          link="https://github.com/VaibhavMathur-2003/Pair-Trading"
         />
         
       </div>
