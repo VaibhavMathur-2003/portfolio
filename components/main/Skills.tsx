@@ -25,8 +25,6 @@ const Skills = () => {
           <div key={index}>
             <SkillDataProvider
               src={image.Image}
-              width={image.width}
-              height={image.height}
             />
           </div>
         ))}

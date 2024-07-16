@@ -8,7 +8,7 @@ const Profile = () => {
   return (
     <div
       id="about-me"
-      className="flex items-center justify-center min-h-screen bg-black text-white"
+      className="flex items-center justify-center min-h-screen bg-black text-white overflow-hidden"
     >
       <div className="text-center z-20 ">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold opacity-100 brightness-150">
@@ -25,7 +25,7 @@ const Profile = () => {
           world of technology! With industry-level experience in full stack web
           development, I enjoy creating sleek, efficient web applications from
           scratch. But that&apos;s not all—I also have a passion for data science and
-          machine learning specially in the field of finance.🚀✨
+          machine learning specially in the field of finance.
         </p>
         <div className="mt-8 space-x-4">
             <a href="https://drive.google.com/file/d/1U2et6QWx0MtH67rHL9u4Wkf1n9ovq4kE/view?usp=drive_link" className="relative inline-block text-lg group" aria-label="resume">

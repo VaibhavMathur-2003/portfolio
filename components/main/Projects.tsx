@@ -21,14 +21,7 @@ const Projects = () => {
           link="https://landweb.netlify.app/"
         />
         
-        {/* <ProjectCard
-          src="/quickconvo.webp"
-          title="Full Stack Chat App"
-          description="• Developed a MERN stack chat application with real-time chat and secure login for 5+ users.
-          • Created interactive UI with React, achieved real-time messaging using Socket.io, and ensured security using encryption.
-          • Utilized React, Socket.io for messaging, scripts, and Node.js, Express, and MongoDB for backend and data handling."
-          link="https://quickconvo.netlify.app/"
-        /> */}
+       
         <ProjectCard
           src="/Jeeone.webp"
           title="Exam Preparation"
