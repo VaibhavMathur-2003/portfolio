@@ -1,5 +1,4 @@
-import React from "react";
-import ProjectCard from "./ProjectCard";
+import React, { Suspense } from "react";
 import { RxGithubLogo } from "react-icons/rx";
 
 import { SiGmail } from "react-icons/si";
@@ -29,7 +28,7 @@ const Profile = () => {
           machine learning specially in the field of finance.🚀✨
         </p>
         <div className="mt-8 space-x-4">
-            <a href="https://drive.google.com/file/d/1U2et6QWx0MtH67rHL9u4Wkf1n9ovq4kE/view?usp=drive_link" className="relative inline-block text-lg group">
+            <a href="https://drive.google.com/file/d/1U2et6QWx0MtH67rHL9u4Wkf1n9ovq4kE/view?usp=drive_link" className="relative inline-block text-lg group" aria-label="resume">
               <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                 <span className="absolute inset-0 w-full h-full px-2 py-1 rounded-lg bg-gray-50"></span>
                 <span className="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
@@ -42,19 +41,19 @@ const Profile = () => {
             </a>
         </div>
         <div className=" mt-5 h-auto flex  items-center justify-between">
-          <a href="mailto:mathurvaibhav@gmail.com">
+          <a href="mailto:mathurvaibhav010@gmail.com" aria-label="mail">
             <p className="flex flex-row items-center my-[20px] cursor-pointer">
               <SiGmail />
               <span className="text-[20px] ml-[6px]">Gmail</span>
             </p>
           </a>
-          <a href="https://github.com/VaibhavMathur-2003">
+          <a href="https://github.com/VaibhavMathur-2003" aria-label="github">
             <p className="flex flex-row items-center my-[20px] cursor-pointer">
               <RxGithubLogo />
               <span className="text-[20px] ml-[6px]">Github</span>
             </p>
           </a>
-          <a href="https://www.linkedin.com/in/vaibhav-mathur-a63940231/">
+          <a href="https://www.linkedin.com/in/vaibhav-mathur-a63940231/" aria-label="linkedin">
             <p className="flex flex-row items-center my-[20px] cursor-pointer">
               <FaLinkedin />
               <span className="text-[20px] ml-[6px]">Linkedin</span>
@@ -64,6 +63,7 @@ const Profile = () => {
       </div>
       <div className="w-full h-screen absolute">
         <div className="absolute inset-0 z-0 flex items-center justify-center overflow-hidden">
+          <Suspense fallback={<div>Loading...</div>}>
           <video
             className="absolute inset-0 w-full h-full object-cover"
             preload="auto"
@@ -71,8 +71,9 @@ const Profile = () => {
             loop
             muted
             autoPlay
-            src="https://videos.pexels.com/video-files/2324166/2324166-uhd_2560_1440_25fps.mp4"
+            src="/profile.webm"
           />
+          </Suspense>
         </div>
       </div>
     </div>

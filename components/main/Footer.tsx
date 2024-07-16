@@ -14,14 +14,14 @@ const Footer = () => {
                 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Connect With Me</div>
-                    <a href="mailto:mathurvaibhav@gmail.com">
+                    <a href="mailto:mathurvaibhav010@gmail.com" aria-label="mail">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <SiGmail />
                             <span className="text-[15px] ml-[6px]">Gmail</span>
                             
                     </p>
                     </a>
-                    <a href="https://github.com/VaibhavMathur-2003">
+                    <a href="https://github.com/VaibhavMathur-2003" aria-label="github">
 
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
@@ -29,7 +29,7 @@ const Footer = () => {
                         
                     </p>
                         </a>
-                        <a href="https://www.linkedin.com/in/vaibhav-mathur-a63940231/">
+                        <a href="https://www.linkedin.com/in/vaibhav-mathur-a63940231/" aria-label="linkedin">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <FaLinkedin />
                             <span className="text-[15px] ml-[6px]">Linkedin</span>   

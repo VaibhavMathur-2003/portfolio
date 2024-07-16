@@ -11,7 +11,7 @@ interface Props {
 const ProjectCard = ({ src, title, description, link }: Props) => {
   return (
     <div className="flex hover:-translate-y-6 min-[770px]:w-[30%] hover:shadow-xl mb-5 hover:shadow-white center relative overflow-hidden rounded-lg shadow-lg border border-[#8d5bf2]">
-      <a href={link} className="flex flex-col justify-between">
+      <a href={link} className="flex flex-col justify-between" aria-label="projects">
       <Image
         src={src}
         alt={title}

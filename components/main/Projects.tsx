@@ -11,7 +11,30 @@ const Projects = () => {
         Web Projects
       </h1>
      
-      <div className="h-full w-full flex flex-col mb-10 md:flex-row justify-between px-10 text-center">
+      <div className="h-full w-full flex flex-col flex-wrap mb-10 md:flex-row justify-around px-10 text-center">
+      
+       
+        <ProjectCard
+          src="/landweb.webp"
+          title="No-Code Web Builder"
+          description="A drag and drop website builder using the MERN stack and Tailwind CSS. This tool allows users to effortlessly build responsive websites by dragging and dropping components. Once designed, users can obtain the corresponding code to implement their creations."
+          link="https://landweb.netlify.app/"
+        />
+        
+        {/* <ProjectCard
+          src="/quickconvo.webp"
+          title="Full Stack Chat App"
+          description="• Developed a MERN stack chat application with real-time chat and secure login for 5+ users.
+          • Created interactive UI with React, achieved real-time messaging using Socket.io, and ensured security using encryption.
+          • Utilized React, Socket.io for messaging, scripts, and Node.js, Express, and MongoDB for backend and data handling."
+          link="https://quickconvo.netlify.app/"
+        /> */}
+        <ProjectCard
+          src="/Jeeone.webp"
+          title="Exam Preparation"
+          description="Used Next.js 14, Prisma, Postgres, Tailwind, NextAuth v5, TypeScript and ShadCN. This platform enables users to prepare for the JEE examination by solving practice questions and participating in proctored exams along with learning roadmaps. It boasts impressive scores on Google Lighthouse with 100 in performance and SEO."
+          link="https://jeeone.vercel.app/"
+        />
         <ProjectCard
           src="/algoviz.webp"
           title="Algo Visualizer"
@@ -20,21 +43,6 @@ const Projects = () => {
           • Includes AI Algorithms like A* which takes 6X less time than Dijkstra.'
           link="https://visualgorithms.netlify.app/"
         />
-        <ProjectCard
-          src="/landweb.webp"
-          title="No-Code Web Builder"
-          description="The No-Code Web Builder is a MERN stack application enabling users to create websites without coding. It offers a drag-and-drop interface for intuitive design and generates frontend code automatically, eliminating manual coding."
-          link="https://landweb.netlify.app/"
-        />
-        <ProjectCard
-          src="/quickconvo.webp"
-          title="Full Stack Chat App"
-          description="• Developed a MERN stack chat application with real-time chat and secure login for 5+ users.
-          • Created interactive UI with React, achieved real-time messaging using Socket.io, and ensured security using encryption.
-          • Utilized React, Socket.io for messaging, scripts, and Node.js, Express, and MongoDB for backend and data handling."
-          link="https://quickconvo.netlify.app/"
-        />
-       
         
       </div>
 
