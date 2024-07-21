@@ -12,32 +12,27 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Java Script",
-      Image: "/js.webp",
-      width: 65,
-      height: 65,
-    },
-    {
       skill_name: "Tailwind Css",
       Image: "/tailwind.webp",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "React",
-      Image: "/react.webp",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Redux",
-      Image: "/redux.webp",
-      width: 80,
-      height: 80,
+      skill_name: "Java Script",
+      Image: "/js.webp",
+      width: 65,
+      height: 65,
     },
     {
       skill_name: "Type Script",
       Image: "/ts.webp",
+      width: 80,
+      height: 80,
+    },
+    
+    {
+      skill_name: "React",
+      Image: "/react.webp",
       width: 80,
       height: 80,
     },
@@ -48,17 +43,20 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Framer Motion",
-      Image: "/framer.webp",
+      skill_name: "Redux",
+      Image: "/redux.webp",
       width: 80,
       height: 80,
     },
+    
     {
-      skill_name: "Material UI",
-      Image: "/mui.webp",
-      width: 80,
-      height: 80,
+      skill_name: "Socket.io",
+      Image: "/socket.webp",
+      width: 70,
+      height: 70,
     },
+    
+    
   
   ];
 
@@ -77,20 +75,20 @@ export const Skill_data = [
       height: 80,
     },
     {
+      skill_name: "Prisma",
+      Image: "/prisma.webp",
+      width: 40,
+      height: 40,
+    },
+    {
       skill_name: "Mongo db",
       Image: "/mongodb.webp",
       width: 40,
       height: 40,
     },
     {
-      skill_name: "Fire base",
-      Image: "/Firebase.webp",
-      width: 55,
-      height: 55,
-    },
-    {
-      skill_name: "Postman",
-      Image: "/postman.webp",
+      skill_name: "Postgres",
+      Image: "/postgres.webp",
       width: 70,
       height: 70,
     },
@@ -100,18 +98,33 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
+   
     {
-      skill_name: "Socket.io",
-      Image: "/socket.webp",
+      skill_name: "Postman",
+      Image: "/postman.webp",
       width: 70,
       height: 70,
-    }
+    },
+    
+    
+    {
+      skill_name: "Docker",
+      Image: "/docker.webp",
+      width: 80,
+      height: 80,
+    },
   ];
   
   
   
   
   export const Other_skill = [
+    {
+      skill_name: "Linux",
+      Image: "/linux.webp",
+      width: 80,
+      height: 80,
+    },
     {
       skill_name: "Python",
       Image: "/pngwing.com.webp",
@@ -125,8 +138,14 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Tensorflow",
-      Image: "/tensorflow.webp",
+      skill_name: "Numpy",
+      Image: "/Numpy.webp",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Pandas",
+      Image: "/pandas.webp",
       width: 80,
       height: 80,
     },
@@ -136,12 +155,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "ScikitLearn",
-      Image: "/scikit.webp",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "selenium",
       Image: "/selenium.webp",
@@ -152,12 +166,7 @@ export const Skill_data = [
   
   
   export const Tools = [
-    {
-      skill_name: "Jupyter",
-      Image: "/jupyter.webp",
-      width: 60,
-      height: 60,
-    },
+    
     {
       skill_name: "GitHub",
       Image: "/gitwhite.webp",
