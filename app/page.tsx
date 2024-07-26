@@ -1,9 +1,11 @@
-import Profile from "@/components/main/Profile";
+import Projects from "@/components/main/Projects";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full overflow-hidden bg-black">
-      <Profile />
-    </div>
+    <main className="h-full w-full mt-10">
+      <div className="flex flex-col gap-20">
+        <Projects />
+      </div>
+    </main>
   );
 }

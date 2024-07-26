@@ -92,12 +92,7 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "My SQL",
-      Image: "/mysql.webp",
-      width: 70,
-      height: 70,
-    },
+    
    
     {
       skill_name: "Postman",
